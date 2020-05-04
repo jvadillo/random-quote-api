@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Jon Vadillo</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-dark bg-primary">
+      <a class="navbar-brand" href="#"><i class="fab fa-js"></i> Random Quotes App</a>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="btn btn-outline-light" href="https://twitter.com/JonVadillo/" target="_blank"><i
+              class="fab fa-twitter"></i> @JonVadillo</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main content -->
+  <main>
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Random Quotes App</h1>
+        <p class="lead my-4">This app has been built for learning purpose. The goal is to show the use of Fetch API,
+          handle events and modify DOM elements.
+          <p>
+            <a id="load-quote-btn" href="#" class="btn btn-primary my-2"><i class="fa fa-github" aria-hidden="true"></i>
+              Load other quote</a>
+            <a href="https://github.com/jvadillo/random-quote-api" class="btn btn-dark my-2"><i class="fa fa-github"
+                aria-hidden="true"></i>
+              View in Github</a>
+          </p>
+      </div>
+    </section>
+    <section class="text-center">
+      <div class="container">
+        <p id="quote" class="lead my-4"></p>
+        <p id="character" class="my-4"></p>
+    </section>
+    </div>
+  </main>
+  <!-- Font-awsome -->
+  <script src='https://kit.fontawesome.com/98437ff5af.js'>
+  </script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
